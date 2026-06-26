@@ -1,0 +1,296 @@
+body {
+    background-image:
+        linear-gradient(rgba(255,255,255,0.9),
+        rgba(255,255,255,0.9)),
+        url("https://upload.wikimedia.org/wikipedia/commons/7/77/Government_of_Kerala_Logo.png");
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar-brand {
+    font-weight: bold;
+   
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.cm-box {
+    background-color: #dbeafe;   /* Light Blue */
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.cm-box h1 {
+    margin-bottom: 20px;
+}
+
+.cm-box p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+footer {
+    margin-top: auto;
+    background: linear-gradient(to right, #14532d, #198754);
+    color: white;
+}
+
+footer p {
+    margin: 5px;
+}
+
+.navbar {
+    background-color: #6c93ce !important;   /* Blue */
+}
+.ministers-page{
+    background-color: #d8a7b1;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.08);
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #14532d;
+}
+.card-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #198754;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.card-text{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.navbar{
+    background-color: olive !important;
+}
+
+.navbar-brand,
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: yellow !important;
+}
+
+.ministers-page {
+    background-color: #cfa0ad;   /* Olive pink */
+}
+
+.cm-box {
+    background-color: #dbe7f6;   /* Same as 2nd picture */
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.cm-box img {
+    border-radius: 10px;
+}
+
+
+.cm-box h1 {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+
+.cm-box p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+.cm-box .btn {
+    background-color: #6c757d;
+    border: none;
+}
+
+.cm-box .btn:hover {
+    background-color: #5a6268;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+.carousel {
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 30px auto;
+    max-width: 1200px;
+
+}
+.card {
+    border: none;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    transition: all 0.4s ease;
+    background: white;
+}
+
+.card {
+    border-radius: 30px 5px 30px 5px;
+}
+.accordion {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.accordion-item {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+h2 {
+    font-weight: bold;
+    color: #14532d;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+h2::before,
+h2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 3px;
+    background: #198754;
+}
+
+h2::before {
+    left: 35%;
+}
+
+h2::after {
+    right: 35%;
+}
+section {
+    padding: 60px 0;
+}
+.section-box:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.btn-primary {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.navbar {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: yellow;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+.contact-box {
+    background: rgba(255,255,255,0.95);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    transition: 0.3s;
+}
+
+.contact-box:hover {
+    transform: translateY(-8px);
+}
+.contact-box h1 {
+    color: #14532d;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-box h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #198754;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.btn-primary {
+    background: linear-gradient(to right, #14532d, #198754);
+    border: none;
+    border-radius: 50px;
+    padding: 12px 30px;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+}
+.contact-page {
+    background: linear-gradient(135deg, #edf7ed, #dbeafe);
+}
